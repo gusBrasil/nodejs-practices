@@ -1,7 +1,7 @@
 const prompt = require('prompt-sync')();
 
 let clientes = [
-    {
+    carlos = {
         nome: 'Carlos',
         ID: 970
     },
@@ -13,12 +13,15 @@ let clientes = [
 
 function showInfo() {
     let x = prompt("Deseja visualizar as suas informações?(y/n) ");
-    if(x = 'y') {
+    if(x == 'y') {
         console.log('Digite seu nome e seu ID');
-        let promptNome = prompt('nome: ');
-        let promptID = prompt('ID: ');
-    } if (promptNome = clientes[0].nome && promptID) {
+    }
 
+    const promptNome = prompt('nome: ');
+    const promptID = prompt('ID: ');
+
+     if (promptNome == clientes[0].nome && promptID == clientes[0].ID) {
+        console.log(clientes[0]);
     }
 }
 
