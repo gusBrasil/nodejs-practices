@@ -1,8 +1,8 @@
 const prompt = require('prompt-sync')();
 
 let x = prompt("Somar, subtrair, multiplicar, dividir ou elevar? (1/2/3/4/5): ");
-let a = parseFloat(prompt("Qual o primeiro número da operação?  "));
-let b = parseFloat(prompt("Fale o segundo número: "));
+let a = parseFloat(prompt("Qual o primeiro número da operação? "));
+let b = parseFloat(prompt("Qual o segundo número da operação? "));
 
 function sum() {
     console.log(a + b);
