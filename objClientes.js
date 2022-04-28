@@ -21,7 +21,7 @@ function showInfo() {
     const promptID = prompt('ID: ');
 
      if (promptNome == clientes[0].nome && promptID == clientes[0].ID) {
-        console.log(clientes[0]);
+        console.log(carlos);
     }
 }
 
