@@ -24,7 +24,7 @@ const cliente = {
 let relatorio = ''
 
 for (let info in cliente) {
-    relatorio += `${info}`
+    relatorio += `${info} - ${cliente[info]} `
 }
 
 console.log(relatorio);
