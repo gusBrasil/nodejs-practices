@@ -5,6 +5,10 @@ const cliente = {
     email: 'gustavo@email.com'
 }
 
-const chaves = ['nome', 'idade', 'cpf', 'email'];
+cliente.fone = '21989998899'
 
-chaves.forEach(info => console.log(cliente[info]));
+console.log(cliente)
+
+cliente.fone = '0'
+
+console.log(cliente);
