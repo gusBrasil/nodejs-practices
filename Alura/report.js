@@ -27,7 +27,9 @@ for (let info in cliente) {
     if (typeof cliente[info] === 'object' || typeof cliente[info] === 'function'){
         continue
     } else {
-        relatorio += `${info} - ${cliente[info]} `
+        relatorio += `
+        ${info} - ${cliente[info]} 
+        `
     }
 }
 
