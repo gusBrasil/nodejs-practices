@@ -21,6 +21,10 @@ const cliente = {
     }
 }
 
+let relatorio = ''
+
 for (let info in cliente) {
-    
+    relatorio += `${info}`
 }
+
+console.log(relatorio);
