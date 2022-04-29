@@ -6,3 +6,4 @@ const cliente = {
 }
 
 console.log(`O nome é ${cliente.nome} e tem ${cliente.idade} anos`);
+console.log(cliente.cpf.substring(0,3));
