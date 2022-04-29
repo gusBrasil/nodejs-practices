@@ -24,7 +24,11 @@ const cliente = {
 let relatorio = ''
 
 for (let info in cliente) {
-    relatorio += `${info} - ${cliente[info]} `
+    if (typeof cliente[info] === 'object' || typeof cliente[info] === 'function'){
+        continue
+    } else {
+        relatorio += `${info} - ${cliente[info]} `
+    }
 }
 
 console.log(relatorio);
