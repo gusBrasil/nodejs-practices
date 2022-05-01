@@ -25,11 +25,13 @@ const clientes = [
         nome: 'Anna Julia',
         cpf: '87654321',
         dependentes: [{
-            nome: 'Sophia',
+            nome: 'Joana',
             parentesco: 'filha',
             dataNasc: '30/08/2020'
         }]
     }
 ]
 
-const listaDependentes = 
+const listaDependentes = [...clientes[0].dependentes,...clientes[1].dependentes];
+
+console.log(listaDependentes);
