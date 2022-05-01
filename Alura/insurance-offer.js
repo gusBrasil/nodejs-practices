@@ -22,7 +22,7 @@ const cliente = {
 }
 
 function offerSeguro(obj) {
-    const propsClientes = Object.keys(cliente);
+    const propsClientes = Object.keys(obj);
     if(propsClientes.includes('dependentes')){
         console.log(`oferta de seguro de vida para ${obj.nome}`)
     }
