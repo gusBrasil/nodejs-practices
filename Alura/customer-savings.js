@@ -19,3 +19,6 @@ console.log(ju);
 clientePoupanca.prototype.depositarPoup = function(valor){
     this.saldoPoup += valor;
 }
+
+ju.depositarPoup(30);
+console.log(ju.saldoPoup);
