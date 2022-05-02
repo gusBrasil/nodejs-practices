@@ -8,7 +8,10 @@ function cliente(nome, cpf, email, saldo) {
     }
 }
 
-const Gustavo = new cliente('Gustavo', 123123123, "gustavo@gustavo.com", 100);
+function clientePoupanca(nome, cpf, email, saldo, saldoPoup) {
+    cliente.call(this, nome, cpf, email, saldo);
+    this.saldoPoup = saldoPoup
+}
 
-console.log(Gustavo);
- 
+const ju = new clientePoupanca('Ju', 123456, 'ju@email.com', 1000, 5000);
+console.log(ju);
