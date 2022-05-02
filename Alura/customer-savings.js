@@ -15,3 +15,7 @@ function clientePoupanca(nome, cpf, email, saldo, saldoPoup) {
 
 const ju = new clientePoupanca('Ju', 123456, 'ju@email.com', 1000, 5000);
 console.log(ju);
+
+clientePoupanca.prototype.depositarPoup = function(valor){
+    this.saldoPoup += valor;
+}
