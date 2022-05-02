@@ -1,4 +1,4 @@
-class cliente {
+class Cliente {
     constructor (nome, email, cpf, saldo) {
         this.nome = nome;
         this.email = email;
@@ -14,3 +14,9 @@ class cliente {
         console.log(this.saldo);
     }
 }
+
+const gustavo = new Cliente('Gustavo', 'gustavo@email.com', 123654789, 100);
+
+gustavo.exibirSaldo();
+
+console.log(gustavo);
