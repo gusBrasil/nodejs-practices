@@ -8,4 +8,4 @@ function cliente(nome, cpf, email, saldo) {
     }
 }
 
-console.log(cliente(gustavo, 121, gustavogustavocom, 12));
+console.log(cliente('gustavo', 121, 'gustavogustavocom', 12));
