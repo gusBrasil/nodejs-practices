@@ -8,4 +8,6 @@ function cliente(nome, cpf, email, saldo) {
     }
 }
 
-console.log(cliente('gustavo', 121, 'gustavogustavocom', 12));
+const Gustavo = new cliente('Gustavo', 123123123, "gustavo@gustavo.com", 100);
+
+console.log(Gustavo);
