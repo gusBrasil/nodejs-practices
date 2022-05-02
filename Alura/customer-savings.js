@@ -11,3 +11,4 @@ function cliente(nome, cpf, email, saldo) {
 const Gustavo = new cliente('Gustavo', 123123123, "gustavo@gustavo.com", 100);
 
 console.log(Gustavo);
+ 
