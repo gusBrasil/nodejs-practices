@@ -6,4 +6,4 @@ const cliente = {
     fones: ['55912345678', '55987654321']
 }
 
-cliente.fones.forEach(fone => console.log(fone))
+cliente.fones.forEach(fone => console.log(fone));
