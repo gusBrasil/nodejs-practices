@@ -22,5 +22,7 @@ const cliente = {
 }
 
 console.log(cliente.saldo);
+
 cliente.depositar(100);
+
 console.log(cliente.saldo);
