@@ -1,3 +1,5 @@
+const livros = require('./listaLivros');
+
 let maisBarato = 0;
 
 for (let atual = 0; atual < precosLivros.length; atual++) {
