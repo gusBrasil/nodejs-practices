@@ -26,6 +26,10 @@ const precosLivros = [
     {
         titulo: 'Assembly',
         preco:5
+    },
+    {
+        titulo: 'Cobol',
+        preco: 1
     }
 ]
 
